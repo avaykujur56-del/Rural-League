@@ -1,0 +1,23 @@
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#0b5d1e,#1d7d36);
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 30px;
+background:gold;
+border:none;
+cursor:pointer;
+font-size:18px;
+}
