@@ -1,0 +1,35 @@
+.standings{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+.standings h2{
+    margin-bottom:20px;
+    color:#0B5D1E;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+th{
+    background:#0B5D1E;
+    color:white;
+    padding:15px;
+}
+
+td{
+    text-align:center;
+    padding:15px;
+    border-bottom:1px solid #eee;
+}
+
+tbody tr:hover{
+    background:#f7f7f7;
+}
